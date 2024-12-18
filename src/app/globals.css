@@ -2,20 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+ol, ul {
+  list-style-position: outside; /* 리스트 번호 또는 불릿이 텍스트 밖에 표시되도록 설정 */
+  padding-left: 1.5rem; /* 들여쓰기 간격 조정 */
+}
+
+ol {
+  list-style-type: decimal; /* 번호형 리스트 */
+}
+
+ul {
+  list-style-type: disc; /* 불릿 리스트 */
 }

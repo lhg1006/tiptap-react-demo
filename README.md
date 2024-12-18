@@ -1,6 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tiptap 에디터 프로젝트
 
-## Getting Started
+Next.js와 Tiptap을 사용한 리치 텍스트 에디터 구현 프로젝트입니다.
+
+## 기능
+
+- 텍스트 스타일링 (굵게, 기울임, 밑줄 등)
+- 텍스트 색상 변경
+- 배경색 변경
+- 버블 메뉴
+- 툴바
+
+## 기술 스택
+
+- Next.js 14
+- TypeScript
+- Tiptap
+- Tailwind CSS
+
+## 시작하기
 
 First, run the development server:
 
